@@ -11,7 +11,7 @@ import { CommonModule, NgIf } from '@angular/common';
   styleUrl: './app.css'
 })
 export class App {
-  title = 'student-app-1';
+  title = 'students-app-1';
   student = {
     fullName: '',
     email: ''
@@ -20,7 +20,7 @@ export class App {
   onSubmit(form: any) {
     if (form.valid) {
       console.log('Form Data:', this.student);
-      alert('Registration Successful!');
+      alert('Registration Successfully!');
 
       // Reset the form after submission
       form.reset();
